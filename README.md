@@ -191,7 +191,7 @@ To place any Team repo into your Personal Github repo:
 7. To  easily get your  branch, type `git  branch`, then copy  the one
    that is starred.
    
-8. Lastly, type `git push personal <paste branch here>
+8. Lastly, type `git push personal <paste branch here>`
 
 You  should now  have a  personal copy  of your  Team project  on your
 personal Github page.
