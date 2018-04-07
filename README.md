@@ -180,9 +180,13 @@ To place any Team repo into your Personal Github repo:
 5.  At the  top there  will be  a _Quick  setup_ ---  copy the  URL by
    clicking on the _paste_ button at the far right.
    
-6. In your terminal,  navigate to the top level of  the Team repo, and
-   then type `git remote add personal  <paste URL here>`.  It is vital
-   that you are in the right directory when you do this command.
+6. In your  terminal, navigate to the  top level of the  Team repo you
+   will be  saving on Github, and  then type `git remote  add personal
+   <paste URL here>`.  It is vital that you are in the right directory
+   when you  do this  command.  You  should not  be in  the enveloping
+   _CSPT1_TEAMS_  directory,  but  rather  in the  top  level  of  the
+   _Insta-Clone-React_ directory,  for example,  if that were  the one
+   you were going to be saving.
 
 7. To  easily get your  branch, type `git  branch`, then copy  the one
    that is starred.
