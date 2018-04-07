@@ -74,24 +74,33 @@ give or take.
 Next, there will be a solution given to the sprint challenge of the past
 week.
 
-3. Team Presentations
+## Personal Github Repos
 
-Finally, the students will have a team standup, during which time they
-will prepare a presentation for the entire class of their sprint work of
-the past week.  Each team will present in front of the entire class the
-final merged product, explain it, their own difficulties and learning
-experiences, etc.  Each student will participate for a few minutes, and
-students are encouraged to create slides, code snippets, screen shots,
-etc., for their presentation.  Each team will present their work, and so
-all students will get to see the vast possibilities that exist for
-producing code, and will get experience speaking in front of a group.
-Each student will be expected to present one little snippet of the
-whole, and so the time spent in front of the group will be only a couple
-of minutes.  This is a time for learning how to work in teams as much as
-it is a time for learning code.
+To place any Team repo into your Personal Github repo:
 
-Each team will have about an hour to have their standup and produce
-their presentation.  Each team will have about 20 minutes to present.
-Each team member will therefore have about 3 minutes to present their
-part.  We are hoping that this will be a fun time, and not a stressful
-time.  Three minutes goes by very quickly.
+1. Create a _New Repository_ in your Personal Github (look for the Plus
+   sign with  a dropdown  next to your  icon on the  top menu  bar, far
+   right side).
+
+2. Give the new repo a _Repository Name_ in the blank box.  Add a
+   description of your choice (optional).
+   
+3. You can add your own README and .gitconfig if you, or if there is
+   already one, just leave those alone.
+   
+4. Hit the button to **Create repository**.
+
+5. At the top there will be a _Quick setup_ --- copy the URL by
+   clicking on the _paste_ button at the far right.
+   
+6. In your terminal, navigate to the top level of the Team repo, and
+   then type `git remote add personal <paste URL here>`.  It is vital
+   that you are in the right directory when you do this command.
+
+7. To easily get your branch, type `git branch`, then copy the one that
+   is starred.
+   
+8. Lastly, type `git push personal <paste branch here>
+
+You should now have a personal copy of your Team project on your
+personal Github page.
